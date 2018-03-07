@@ -24,7 +24,7 @@ contract Splitter {
     }
 
     function getContractBalance() public view returns (uint) {
-         return this.balance;                 // should be 0 as any ether sent to it will be transferred to bob & carol
+         return this.balance;                 
     }
 
     function getUserBalance(address person) public view returns (uint) {
